@@ -12,7 +12,7 @@ export default function Card2() {
 
     async function BuscaSP(){
         const resposta = await api.get(
-            "https://api.weatherapi.com/v1/forecast.json?key=d893fb7b72464d7688d124905220209&q=sao%20paulo&days=1&aqi=no&alerts=no"
+            "https://api.weatherapi.com/v1/forecast.json?key=9c6c69da8d4045d892a112205220909&q=sao%20paulo&days=1&aqi=no&alerts=no"
         );
         const buscaSP = resposta.data;
         setcidadesp(
@@ -30,7 +30,7 @@ export default function Card2() {
     }
     async function BuscaCWB(){
         const resposta = await api.get(
-            "https://api.weatherapi.com/v1/forecast.json?key=d893fb7b72464d7688d124905220209&q=curitiba&days=1&aqi=no&alerts=no"
+            "https://api.weatherapi.com/v1/forecast.json?key=9c6c69da8d4045d892a112205220909&q=curitiba&days=1&aqi=no&alerts=no"
         );
         const buscaCWB = resposta.data;
         setcidadecwb(
@@ -48,7 +48,7 @@ export default function Card2() {
     }
     async function BuscaNATAL(){
         const resposta = await api.get(
-            "https://api.weatherapi.com/v1/forecast.json?key=d893fb7b72464d7688d124905220209&q=natal&days=1&aqi=no&alerts=no"
+            "https://api.weatherapi.com/v1/forecast.json?key=9c6c69da8d4045d892a112205220909&q=natal&days=1&aqi=no&alerts=no"
         );
         const buscaNATAL = resposta.data;
         setcidadenatal(
